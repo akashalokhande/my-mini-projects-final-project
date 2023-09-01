@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box ;
+}
+
+.background {
+  background-image: url(./images/3d-Desktop-Backgrounds.jpg);
+  height: 100vh;
+}
+
+.whether-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.center {
+  height: 260px;
+  width: 350px;
+  background-color: black;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
+input {
+  background-color: #80808020;
+  margin-top: 30px;
+  margin-left: 30px;
+  padding: 5px 10px;
+  outline-style: none;
+  border: 0px;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+}
+
+.bg-white {
+  background-color: #80808066;
+  padding: 10px 10px;
+  margin-left: 2px;
+  border-radius: 15px;
+}
+.text-white{
+  color: white;
+  margin-top: 20px;
+  margin-left:30px;
+}
+.tem-in-celcuis{
+    margin:20px 0;
+}
+ .cloud-icon{
+  margin-right:8px;
+ }
+.weather{
+     display: flex;
+}
